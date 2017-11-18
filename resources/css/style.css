@@ -65,7 +65,6 @@ img {
 
 .jumbotron .container {
   width: 60rem;
-
 }
 
 .jumbotron h1 {
@@ -104,11 +103,20 @@ img {
 }
 
 @media only screen and (max-width: 470px) {
+  .jumbotron {
+    padding-top: 15rem;
+  }
   .jumbotron h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
+  }
+  .jumbotron p {
+    font-size: 1.5rem;
   }
   .btn-primary {
-    padding: 1rem;
+    padding: 0.8rem;
+  }
+  .relative-wrapper {
+    top: -15rem;
   }
 }
 
