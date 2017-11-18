@@ -35,51 +35,54 @@ img {
 
 /* Jumbotron Styles */
 
-.jumbotron-bike {
-  background-image: url(../images/jumbotron-bike.jpg);
-  padding-top: 11.85rem;
-  padding-bottom: 11.85rem;
+.jumbotron {
+  height: 44rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
   text-align: center;
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
+}
+
+.jumbotron-bike {
+  background-image: url(../images/jumbotron-bike.jpg);
 }
 
 .jumbotron-beer {
   background-image: url(../images/jumbotron-beer.jpg);
-  padding-top: 11.85rem;
-  padding-bottom: 11.85rem;
-  color: white;
-  text-align: center;
 }
 
 .jumbotron-flowers {
   background-image: url(../images/jumbotron-flowers.jpg);
-  padding-top: 11.85rem;
-  padding-bottom: 11.85rem;
-  color: white;
-  text-align: center;
 }
 
 .jumbotron-duffel {
   background-image: url(../images/jumbotron-duffel.jpg);
-  padding-top: 11.85rem;
-  padding-bottom: 11.85rem;
-  color: white;
-  text-align: center;
 }
 
 .jumbotron .container {
-  width: 51.3rem;
+  width: 60rem;
+
 }
 
 .jumbotron h1 {
   font-family: "Monoton", sans-serif;
   font-size: 7.1rem;
-  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
 }
 
 .jumbotron p {
   font-size: 1.7rem;
   font-weight: 400;
+}
+
+.relative-wrapper {
+  position: relative;
+  top: -14rem;
+  width: 100%;
+  text-align: center;
 }
 
 .btn-primary {
